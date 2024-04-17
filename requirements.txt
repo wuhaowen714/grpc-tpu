@@ -1,0 +1,6 @@
+grpcio==1.56.0
+grpcio-reflection==1.56.0
+grpcio-tools==1.56.0
+sentencepiece==0.1.99
+transformers==4.36.2
+tiktoken==0.6.0
