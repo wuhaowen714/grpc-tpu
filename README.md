@@ -29,7 +29,7 @@ python3 api_server/app.py
 
 ## 接口说明
 ### StreamComplete
-接收请求参数需要传入system_message和history，histoey的形式为`[{"role": 1, "content": xxx}, {"role": 2, "content": xxx}, {"role": 1, "content": xxx}]`, history最后一项必须为`"role": 1`, 例如：
+接收请求参数需要传入system_message和history，history的形式为`[{"role": 1, "content": xxx}, {"role": 2, "content": xxx}, {"role": 1, "content": xxx}]`, history最后一项必须为`"role": 1`, 例如：
 ```json
 {
     "history": [{"role": 1, "content": "你好"}],
